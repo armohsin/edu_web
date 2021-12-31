@@ -297,9 +297,12 @@ body, html {
 }
 
 .news{
-  padding-top: 15px;
+  padding-top: 25px;
+  height: 700px;
 }
-
+.news h1{
+  padding-bottom: 25px;
+}
 .band {
   width: 90%;
   max-width: 1240px;
@@ -404,3 +407,15 @@ body, html {
     padding: 50px;
   }
   }
+
+  .msgdiv {
+ 
+    background-image: url("../img/bg2.png");
+    height: 90%;    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 

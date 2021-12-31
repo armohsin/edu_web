@@ -1,0 +1,17 @@
+.hero{
+    
+    background-image: url("../img/bg2.png");
+    height: 50%;    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero H1{
+    text-align: center;
+    padding: 100px;
+    color: white;
+    font-weight: 600;
+  position: relative;
+  font-size: 50px;
+}
