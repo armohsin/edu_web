@@ -1,21 +1,29 @@
 .hero{
     
-    background-image: url("../img/bg4.png");
-    height: 50%;    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/bg2.png");
+  height: 50%;    
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.hero H1{
-    text-align: center;
-    padding: 100px;
-    color: white;
-    font-weight: 600;
-    position: relative;
-    font-size: 50px;
+.hero h1{
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  font-size: 50px;
 }
-
+@media  only screen and (max-width: 600px) {
+  .hero H1{
+      width:50%;
+      text-align: center;
+      padding: 50px;
+      padding-top: 60px;
+      font-size:40px;
+  }
+}
 
 .sop {
  
@@ -241,7 +249,7 @@
           padding: 50px;
         }
         .idiv{
-            height: 500px;
+            height: 850px;
         }
         .iimg{
             display: none;
