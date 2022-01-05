@@ -195,3 +195,107 @@
   color: #fff;
 
 }
+
+
+.imsg {
+    width: 50%;
+     float: right; 
+    padding-top: 50px;
+    padding-right: 150px;
+    /* padding-left: 40px; */
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    text-align: justify;
+    }
+    .iimg{
+      width: 65%;
+      height:65%;
+      border-radius: 10px;
+    
+    }
+    .imdiv {
+    float: right;
+    box-sizing: border-box;
+    padding-left: 160px;
+    width: 50%;
+    }
+   
+
+  
+    .idiv {
+   
+    background-color: #F8F8F8;
+
+      height: 80%;    
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    @media only screen and (max-width: 600px) {
+        .imsg, .idiv {
+          width: 100%;
+        }
+        .imsg {
+          padding: 50px;
+        }
+        .idiv{
+            height: 500px;
+        }
+        .iimg{
+            display: none;
+        }
+        }
+
+        .smsg {
+            width: 50%;
+             float: left; 
+            padding-top: 50px;
+            padding-left: 150px;
+            padding-right: 40px;
+            padding-bottom: 100px;
+            box-sizing: border-box;
+            text-align: justify;
+            }
+            .simg{
+              width: 65%;
+              height:65%;
+              /* padding-top:50px; */
+              border-radius: 10px;
+            
+            }
+            .simgdiv {
+            float: right;
+            box-sizing: border-box;
+            padding-right: 60px;
+            width: 50%;
+            }
+           
+            @media all and (max-width: 767px) {
+            .smsg, .simgdiv {
+              width: 100%;
+            }
+            .smsg {
+              padding: 50px;
+            }
+            }
+          
+            .smsgdiv {
+           
+              background-image: url("../img/ssbc.png");
+              height: 90%;    
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+          
+           @media only screen and (max-width: 600px){
+                .smsgdiv{
+                    height:900px;
+                }
+                .simgdiv {
+                    padding-left:150px;
+                }
+            }
