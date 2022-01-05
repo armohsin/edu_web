@@ -303,7 +303,7 @@ body, html {
   height: 700px;
 }
 @media only screen and (max-width: 400px){
-  .news{height: 1100px;}
+  .news{height:1500px;}
 }
 
 
