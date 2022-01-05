@@ -426,7 +426,7 @@ body, html {
   }
 
   @media only screen and (max-width: 600px){
-    .msgdiv{height: 850px;}
+    .msgdiv{height: 890px;}
     .imgdiv{padding-left: 50px;}
   }
  
