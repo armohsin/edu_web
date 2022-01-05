@@ -18,12 +18,107 @@
 .abt-txt{
     height:55%;
     background-color: #F8F8F8;
-    padding: 50px;
+    /* padding: 50px; */
+    padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
 }
+@media  only screen and (max-width: 600px) {
+    .abt-txt{
+        height:550px;
+        padding: 30px;
+    }
+}
+
 .abt-txt h1{
     text-align: center;
     padding-bottom: 25px;
 }
 .abt-txt p{
 text-align: justify;
+}
+
+.team{
+    background-image: url("../img/bg3.png");
+    height: 100%;    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    
+}
+
+.tcolumn {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 150px;
+  }
+  .timg{
+                
+    height: 300px;
+     
+ }
+  
+  @media screen and (max-width: 650px) {
+    .tcolumn {
+      width: 100%;
+      display: block;
+      padding: 0 8px;
+    }
+    .team{
+        height: 1100px;
+    }
+  }
+  
+  .team h1{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+  .tcard {
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .tcontainer {
+    padding: 0 16px;
+    background-color:white;
+  }
+  
+  .tcontainer::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .ttitle {
+    color: grey;
+  }
+ 
+  .mission{
+    height:30%;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  }
+  .mission h1{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+
+@media  only screen and (max-width: 600px) {
+    .mission{
+        height:210px;
+        padding: 10px;
+        
+    }
 }
