@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
+    <script src="./js/global.js"></script>
+    <link rel="stylesheet" href="./css/aos.css">
+    <script src="./js/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
           rel="stylesheet"
@@ -15,6 +17,12 @@
     <title>Edu_Web</title>
 </head>
 <body>
+  <!-- SCRIPT FOR ANIMATION -->
+  <Script>
+    AOS.init({
+        duration: 1000
+      });
+      </script>
   <!-- MENU -->
     <header class="header">
         <nav class="navbar">
@@ -60,30 +68,36 @@
     <!-- BOX -->
 
 <div class="op">
-  <div class="boxes">
+  <div class="boxes" data-aos="fade-up">
     <h1 >Opportunities</h1>
     <div class="row">
+      <a href="./opt.html#scho" style=" color: inherit;" target="_blank">
+
       <div class="service">
         <i class="fas fa-hand-holding-usd"></i>
         <h2>Scholarships</h2>
         <p>
           National and international scholarships to the students along with bridging the gap between the alumni and employer for internships and jobs prospects.
         </p>
-      </div>
+      </div></a>
+      <a href="./opt.html#int" style=" color: inherit;" target="_blank">
       <div class="service">
+        
         <i class="fas fa-user-graduate"></i>
         <h2>Internships</h2>
         <p>
           Participating in an internship allows you to gain a better perspective of post-graduation employment by applying the principles and theories you've developed in the classroom.
-        </p>
+        </p></a>
       </div>
+      <a href="./opt.html#job" style=" color: inherit;" target="_blank">
       <div class="service">
+        
         <i class="fas fa-briefcase"></i>
         <h2>Jobs</h2>
         <p>
           Look here for Current Jobs and more Government Jobs
         </p>
-      </div>
+      </div></a>
      
     </div>
   </div>
@@ -93,8 +107,8 @@
 <div class="news" style="background-color: #F8F8F8;"  >
   <h1 style="text-align: center; padding-bottom: 10px;font-weight: 600;">Latest News</h1>
   <div class="band">
-    <div class="item-1">
-      <a href="http://ood.cuiatd.edu.pk/Secure/OOD/NewsDetails1.aspx" target="blank" class="card">
+    <div class="item-1" data-aos="flip-up">
+      <a href="http://ood.cuiatd.edu.pk/Secure/OOD/NewsDetails1.aspx" style=" color: inherit;" target="blank" class="card">
         <div class="thumb" style="background-image: url(./img/shp1.png);"></div>
         <article>
           <h1>CONGRATES!!!Ehsaas Undergraduate program Phase 2- NEW list publised </h1>
@@ -102,8 +116,8 @@
         </article>
       </a>
     </div>
-    <div class="item-2">
-      <a href="" class="card">
+    <div class="item-2" data-aos="flip-down">
+      <a href="" style=" color: inherit;" class="card">
         <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
         <article>
           <h1>Scholarship for Fall 2021 are annouced </h1>
@@ -115,8 +129,8 @@
         </article>
       </a>
     </div>
-    <div class="item-3">
-      <a href="" class="card">
+    <div class="item-3" data-aos="flip-down">
+      <a href="" style=" color: inherit;" class="card">
         <div class="thumb" style="background-image: url(./img/shp2.png);"></div>
         <article>
           <h1>Taleem fund interviews starting from June 16, 2021</h1>
@@ -172,7 +186,7 @@
 <!-- message from head -->
   <div style="padding-top: 50px;" class="msgdiv" style="width:100%;"  >
     <h1 style="text-align: center; padding-bottom: 10px;font-weight: 600;padding-bottom: 20px;color: white;" >Message from the Incharge</h1>
-    <div class="msg">
+    <div class="msg" data-aos="fade-up">
 
         <P style="color: white;">Welcome to the Office of Development which is working hard and leaves no stone unturned to provide maximum opportunities of scholarships, internships and jobs by various means, programs and events.
 
@@ -184,7 +198,7 @@
           </cite>
           </P>
     </div>
-    <div class="imgdiv">
+    <div class="imgdiv" data-aos="fade-up">
         <img class="img" src="./img/head.png" alt="">
     </div>
 </div>

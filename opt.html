@@ -6,43 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/opt.css">
+    <script src="./js/global.js"></script>
+    <link rel="stylesheet" href="./css/aos.css">
+    <script src="./js/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
     <title>Oppurtunities</title>
 </head>
 <body>
+    <!-- SCRIPT FOR ANIMATION -->
+    <Script>
+        AOS.init({
+            duration: 1000
+          });
+          </script>
     <!-- hero -->
     <div class="hero">
-        <H1>Oppurtunities</H1>
+        <H1 class="item" data-aos="fade-up" >Oppurtunities</H1>
     </div>
     <!-- scholarships -->
-    <div class="sop">
-        <div class="sboxes">
+    <a name="scho"></a>
+    <div class="sop" >
+        <div class="sboxes  item" data-aos="fade-up" >
           <h1 >Scholarships</h1>
           <div class="srow">
-            <div class="sservice s1">
             <a style=" color: inherit;" target="_blank" href="https://hec.gov.pk/english/scholarshipsgrants/Pages/NationalScholarships.aspx">
+
+            <div class="sservice s1">
               <i > <img src="./img/pkico.png" alt=""> </i>
               <h2>Pakistani Scholarships</h2>
               <p>
                 All scholarships available for Bacholers/Masters/P.HD right now in Pakistan.
-              </p></a>
-            </div>
+              </p>
+            </div></a>
+            <a style=" color: inherit;" target="_blank" href="https://hec.gov.pk/english/scholarshipsgrants/Pages/InternationalScholarships.aspx">
+
             <div class="sservice s2">
-                <a style=" color: inherit;" target="_blank" href="https://hec.gov.pk/english/scholarshipsgrants/Pages/InternationalScholarships.aspx">
               <i > <img src="./img/earth-icon.png" alt=""> </i>
               <h2> Intl. Scholarships</h2>
               <p>
                 All scholarships available for Bacholers/Masters/P.HD right now All around the World.
-              </p></a>
-            </div>
+              </p>
+            </div></a>
+            <a style=" color: inherit;" target="_blank" href="http://ww3.comsats.edu.pk/scholarships/">
             <div class="sservice s3">
-                <a style=" color: inherit;" target="_blank" href="http://ww3.comsats.edu.pk/scholarships/">
+                
               <i> <img style="width: 48px; height: 48px;" src="./img/clogo.png" alt=""></i>
               <h2>CUIATD-Scholarships</h2>
               <p>
                 All scholarships available for Bacholers/Masters/P.HD srudents right now in COMSATS Abbottabad campus.
-              </p></a>
-            </div>
+              </p>
+            </div></a>
            
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- jobs -->
+      <a name="job"></a>
+      <div id="job" class="jop">
+        <div class="jboxes" data-aos="fade-up">
+          <h1 style="color: white;" >Jobs</h1>
+          <div class="jrow">
+            <a  style=" color: inherit;" target="_blank" href="https://njp.gov.pk/">
+            <div class="jservice">
+              <i> <img style="width: 54px; height: 54px;"  src="./img/gov.png" alt=""> </i>
+              <h2>Govt. Jobs</h2>
+              <p>
+                Latest Jobs in Pakistan where one can find new upcoming career opportunities 2022 from all top Government companies in Pakistan.
+              </p>
+            </div></a>
+            <a  style=" color: inherit;" target="_blank" href="https://www.jobz.pk/private-jobs/">
+            <div class="jservice">
+              <i class="fas fa-briefcase"></i>
+              <h2>Pvt. Jobs</h2>
+              <p>
+                Latest Jobs in Pakistan where one can find new upcoming career opportunities 2022 from all top private companies in Pakistan.
+              </p>
+            </div></a>
+            <a  style=" color: inherit;" target="_blank" href="https://careers.hec.gov.pk/new_recruit/jobs">
+                <div class="jservice">
+                    <i > <img src="./img/earth-icon.png" alt=""> </i>
+                  <h2>Overseas Jobs</h2>
+                  <p>
+                    Latest Jobs out of the country where one can find new upcoming career opportunities 2022 from all Public/Private companies Overseas.
+                  </p>
+                </div></a>
           </div>
         </div>
       </div>

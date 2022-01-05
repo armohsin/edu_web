@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./js/index.js">
+    <link rel="stylesheet" href="./css/aos.css">
+    <script src="./js/aos.js"></script>
+    <script src="./js/global.js"></script>
     <title>About</title>
 </head>
 <body>
+    <!-- SCRIPT FOR ANIMATION -->
+    <Script>
+        AOS.init({
+            duration: 1500
+          });
+          </script>
     <!-- hero -->
     <div class="hero">
-        <H1>About</H1>
+        <H1 class="item" data-aos="fade-up">About</H1>
     </div>
     <!-- about text -->
-    <div class="abt-txt">
+    <div class="abt-txt item" data-aos="fade-up" >
         <h1>About Office Of Development</h1>
         <p>
             The Office of Development (OOD) at CUI Abbottabad Campus is dealing with the national, international and COMSATS based scholarships for students to further their education. These scholarships are awarded based upon various criteria, which usually reflect the standards and determinations of the donor or founder of the award.
@@ -31,8 +39,8 @@
     <div  class="team">
         <h1>Meet the staff</h1>
 <div class="trow">
-    <div class="tcolumn">
-      <div class="tcard">
+    <div class="tcolumn ">
+      <div class="tcard item" data-aos="flip-up">
         <img class="timg" src="./img/head.png" alt="head1" style="width:100%">
         <div class="tcontainer">
           <h2>SYED FIDA HUSSAIN</h2>
@@ -47,7 +55,7 @@
    
     
     <div class="tcolumn">
-      <div class="tcard">
+      <div class="tcard item" data-aos="flip-up">
         <img class="timg" src="./img/head2.png" alt="head2" style="width:100%">
         <div class="tcontainer">
           <h2>MUHAMMAD NAWAZ</h2>
@@ -62,7 +70,7 @@
          
     </div>
     <!-- mission -->
-    <div class="mission">
+    <div class="mission item" data-aos="fade-up">
         <h1>Mission</h1>
         <q>Making untiring efforts to provide and maximize opportunities of national and international scholarships to the students along with bridging the gap between the alumni and employer for internships and jobs prospects. </q>
     </div>
