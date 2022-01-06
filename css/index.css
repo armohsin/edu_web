@@ -236,7 +236,7 @@ body, html {
 @media only screen and (max-width: 600px){
   .hero{height: 750px;}
   .hero h1{padding:100px}
-  .hero h1{font-size: 12px;}
+  .hero h1{font-size: 32px;}
 }
 
 
