@@ -120,7 +120,7 @@
     font-family: 'Poppins', sans-serif;
   }
   
-  label {
+  .form-item label {
     position: absolute;
     top: 10px;
     left: 2%;
