@@ -234,7 +234,7 @@ body, html {
 }
 
 @media only screen and (max-width: 600px){
-  .hero{height: 750px;}
+  .hero{height: 550px;}
   .hero h1{padding:100px}
   .hero h1{font-size: 32px;}
 }
@@ -255,7 +255,7 @@ body, html {
       height: 90%;
     }
   } */
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 600px){
     .op{height: 850px;}
   }
  
@@ -325,12 +325,9 @@ body, html {
 
 }
 
-.news{
-  padding-top: 25px;
-  height: 700px;
-}
+
 @media only screen and (max-width: 600px){
-  .news{height:1550px;}
+  .news{height:1150px;}
 }
 
 
