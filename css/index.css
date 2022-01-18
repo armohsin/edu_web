@@ -456,3 +456,13 @@ body, html {
     .msgdiv{height: 890px;}
     .imgdiv{padding-left: 50px;}
   }
+
+  .footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
